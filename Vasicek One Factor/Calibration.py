@@ -44,7 +44,7 @@ def calibrate_params(rates_diff):
     if beta >=0:
         logging.warning("The estimated parameters are not consistent with the Vasicek model assumptions.")
 
-    delta_t = 1/(252)
+    delta_t = 1/252
 
     theta = alpha/-beta
     k = -beta/delta_t

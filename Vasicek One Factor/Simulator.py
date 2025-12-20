@@ -35,7 +35,8 @@ def simulate_paths(r0, k, theta, sigma, delta_t, sim_period, n_paths):
 def main():
     r0 = 0.044
     k, theta, sigma = Calibration.calibrate_params(Calibration.rates_diff)
-    delta_t = 1/(252)
+    print(k, theta, sigma)
+    delta_t = 1/252
     sim_period = 30
     n_paths = 10000
     rates = simulate_paths(r0, k, theta, sigma, delta_t, sim_period, n_paths)
