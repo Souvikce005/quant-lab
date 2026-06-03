@@ -6,5 +6,7 @@ class main:
     def __init__(self):
         pass    
 
-    rates_data = DataLoader.load("/Users/souvikchakraborty/IR-Modelling/Data/synthetic_rates.csv")
+    rates_data = DataLoader.load(r"/Users/souvikchakraborty/IR-Modelling/Data/synthetic_rates.xlsx")
+
+    print(rates_data)
     

@@ -5,7 +5,11 @@ import numpy as np
 from scipy.interpolate import CubicSpline
 
 class Curve:
-
+    """
+    Class for curve operations such as discount factor, zero rate and forward rate. 
+    The class takes a pandas DataFrame as input which contains the maturity and zero rate. 
+    The class then calculates the discount factor nodes and creates a cubic spline interpolation of the log of the discount factors. The discount factor, zero rate and forward rate can be calculated for any given time t using the respective methods.
+    """
     def __init__(self, data):
 
         self.data = data
