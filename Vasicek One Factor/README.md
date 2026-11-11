@@ -1,1 +1,0 @@
-Implementation of the classic Vasicek one factor interest rate model. The code has been divided into two parts: Calibration and Simulator. The code calibrates the short rate model using the USD SOFR overnight curve. 
