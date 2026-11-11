@@ -1,0 +1,1 @@
+Project Objective: Build a CCR, XVA, and capital analytics platform that can price derivatives, simulate their exposure profiles, compute capital requirements and allocate capital to individual players (trades). The codebase is to be clean, modular, scalable and easily readable by developers. 
